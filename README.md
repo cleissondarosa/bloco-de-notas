@@ -9,7 +9,6 @@ O Bloco de Notas Online é uma aplicação web que permite aos usuários criar, 
 ## Funcionalidades
 
 - **CRUD de Notas**: Os usuários podem criar, ler, atualizar e excluir suas notas.
-- **Interface de Usuário Intuitiva**: Uma interface de usuário limpa e intuitiva facilita a interação com as notas.
 - **Armazenamento Seguro**: As notas são armazenadas de forma segura no banco de dados MySQL.
 - **Testes da API com Postman**: Utilizei o Postman para testar e validar a API RESTful do projeto.
 
