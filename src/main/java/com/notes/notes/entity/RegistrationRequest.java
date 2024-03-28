@@ -1,6 +1,9 @@
 package com.notes.notes.entity;
 
 public class RegistrationRequest {
+
+
+    //Classe criada para implementação futura de um autenticador
     private String username;
     private String password;
     private String email;
