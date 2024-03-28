@@ -1,0 +1,18 @@
+<configuration>
+
+    <!-- Define a saída do log para o console -->
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Define o nível de log para o pacote da sua aplicação -->
+    <logger name="com.notes" level="DEBUG"/>
+
+    <!-- Define o nível de log padrão para outros pacotes -->
+    <root level="INFO">
+        <appender-ref ref="consoleAppender"/>
+    </root>
+
+</configuration>
